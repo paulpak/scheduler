@@ -85,7 +85,7 @@ public class SchedulerMenu extends UserviewMenu implements PluginWebSupport {
     }
 
     public String getVersion() {
-        return "6.0.1";
+        return "6.0.1b";
     }
 
     public String getLabel() {
@@ -95,7 +95,7 @@ public class SchedulerMenu extends UserviewMenu implements PluginWebSupport {
      
     public String getDescription() {
         //support i18n
-        return AppPluginUtil.getMessage("org.joget.scheduler.SchedulerMenu.pluginDesc", getClassName(), MESSAGE_PATH);
+        return AppPluginUtil.getMessage("org.joget.scheduler.SchedulerMenu.pluginDesc", getClassName(), MESSAGE_PATH) + " [" + Activator.GITHUB_URL + "]";
     }
 
     @Override

@@ -1,0 +1,10 @@
+[{
+    title : '@@userview.echoplugin.echoPluginMenu@@',
+    properties : [{
+        name : 'echoText',
+        label : '@@userview.echoplugin.echoText@@',
+        type : 'textfield',
+        required : 'false',
+        value : ''
+    }]
+}]

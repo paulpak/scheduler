@@ -9,6 +9,7 @@ import org.osgi.framework.BundleContext;
 import org.osgi.framework.ServiceRegistration;
 
 public class Activator implements BundleActivator {
+    public static final String GITHUB_URL = "https://github.com/paulpak/scheduler";
 
     protected Collection<ServiceRegistration> registrationList;
 
@@ -17,6 +18,7 @@ public class Activator implements BundleActivator {
 
         //Register plugin here
         registrationList.add(context.registerService(SchedulerMenu.class.getName(), new SchedulerMenu(), null));
+        registrationList.add(context.registerService(EchoPlugin.class.getName(), new EchoPlugin(), null));
         
         if ((HostManager.isVirtualHostEnabled() && isDefaultProfile()) || !HostManager.isVirtualHostEnabled()) {    
             SchedulerUtil.initSchedulers();
