@@ -4,6 +4,12 @@ Scheduler Plugin is a userview menu for Joget to schedule jobs to run at a speci
 
 You can use this plugin to trigger any process tools.
 
+# Modifications
+
+6.0.0c Allow sorting in the listing, link to https://freeformatter.com/cron-expression-generator-quartz.html<br>
+6.0.0b Allow sorting in the logs
+
+
 # Getting Help
 
 JogetOSS is a community-led team for open source software related to the [Joget](https://www.joget.org) no-code/low-code application platform.
