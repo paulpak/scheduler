@@ -6,7 +6,7 @@ You can use this plugin to trigger any process tools.
 
 # Modifications
 
-6.0.0c Allow sorting in the listing, link to https://freeformatter.com/cron-expression-generator-quartz.html
+6.0.0c Allow sorting in the listing, link to https://freeformatter.com/cron-expression-generator-quartz.html<br>
 6.0.0b Allow sorting in the logs
 
 
